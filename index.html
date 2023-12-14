@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./favicons/favicon-16x16.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./JS/scripts.js" defer></script>
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <main class="main_container">
+      <img
+        src="./imgs/pokemon.gif"
+        alt="pokemon"
+        class="pokemon"
+        id="pokemon1"
+      />
+      <img src="./imgs/pokedex.png" alt="" class="pokedeximg" />
+
+      <div class="positin">
+        <span class="number_pokemon centralize" id="numberpokemon">1 -</span>
+        <span class="name_pokemon centralize" id="namepokemon"
+          >Bulbassauro</span
+        >
+      </div>
+
+      <form class="form">
+        <input
+          type="search"
+          class="input"
+          placeholder="Name or Number"
+          required
+        />
+      </form>
+
+      <div class="buttons">
+        <button class="button_avant" id="recua_button">Anterior &lt</button>
+        <button class="button_avant" id="avanca_button">Próximo ></button>
+      </div>
+    </main>
+  </body>
+</html>
