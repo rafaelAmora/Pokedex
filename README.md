@@ -1,4 +1,5 @@
 Pokédex
+
 Uma Pokédex simples e interativa desenvolvida com HTML, CSS e JavaScript. Este projeto consome a PokéAPI para buscar e exibir informações sobre Pokémon, incluindo nome, número e imagem animada.
 
 ✨ Funcionalidades
